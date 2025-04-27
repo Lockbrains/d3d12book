@@ -45,14 +45,11 @@
     <ClCompile Include="Common\MathHelper.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="src\Main.cpp">
+    <ClCompile Include="src\WinMain.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\MyApp.cpp">
+    <ClCompile Include="src\MyD3DApp.cpp">
       <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Chapter 6 Drawing in Direct3D\Box\BoxApp.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -83,21 +80,8 @@
     <ClInclude Include="Common\UploadBuffer.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="src\MyApp.h">
+    <ClInclude Include="src\MyD3DApp.h">
       <Filter>src</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="..\Chapter 6 Drawing in Direct3D\Box\Shaders\color.hlsl">
-      <Filter>Source Files</Filter>
-    </FxCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Chapter 6 Drawing in Direct3D\Box\Shaders\color_ps.cso">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="..\Chapter 6 Drawing in Direct3D\Box\Shaders\color_vs.cso">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
